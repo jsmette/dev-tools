@@ -6,3 +6,5 @@
 4. [Reshot](https://www.reshot.com/)
 5. [Autodraw](https://www.autodraw.com/)
 6. [Spline](https://spline.design/)
+7. [Meshgradient](https://meshgradient.com/)
+8. [Happyhues](https://www.happyhues.co/)
