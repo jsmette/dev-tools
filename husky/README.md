@@ -11,6 +11,13 @@ yarn dlx husky-init --yarn2 && yarn # Yarn 2+
 pnpm dlx husky-init && pnpm install # pnpm
 ```
 
+## React
+
+```shell
+yarn create react-app react-husky --template typescript
+npx husky-init && yarn
+```
+
 # Resources
 
 1. [Husky](https://typicode.github.io/husky/#/)
