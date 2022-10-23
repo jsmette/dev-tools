@@ -1,5 +1,6 @@
 # Introduction
 
+Husky uses [git hooks](https://github.com/lifeparticle/Git-Cheatsheet/blob/master/README.md#git-hooks)
 
 # Installation
 
