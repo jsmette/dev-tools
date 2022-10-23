@@ -18,6 +18,16 @@ yarn create react-app react-husky --template typescript
 npx husky-init && yarn
 ```
 
+The abvoe commands should generate the following code inside the `package.json` file:
+
+```json
+{
+  "scripts": {
+    "prepare": "husky install"
+  }
+}
+```
+
 # Resources
 
 1. [Husky](https://typicode.github.io/husky/#/)
