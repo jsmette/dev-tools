@@ -184,6 +184,8 @@ Turns off all rules that are unnecessary or might conflict with prettier.
 yarn add --dev stylelint-config-prettier
 ```
 
+Append stylelint-config-prettier to the extends array in your .stylelintrc.* file. Make sure to put it last, so it will override other configs.
+
 `.stylelintrc.json`
 
 ```json
@@ -191,6 +193,8 @@ yarn add --dev stylelint-config-prettier
 	"extends": ["stylelint-config-standard", "stylelint-config-prettier"]
 }
 ```
+
+[Source](https://www.npmjs.com/package/stylelint-config-prettier)
 
 # Additional
 
