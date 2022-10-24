@@ -20,6 +20,7 @@ npx husky-init && yarn
 
 The abvoe commands should generate the following code inside the `package.json` file:
 
+// package.json
 ```json
 {
   "scripts": {
@@ -35,6 +36,15 @@ yarn add --dev lint-staged
 yarn add --dev --exact prettier
 ```
 
+// .husky\pre-commit
+```
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+npx lint-staged
+```
+
+// package.json
 ```json
 "lint-staged": {
   "*.{js,ts,tsx}": "eslint --fix"
