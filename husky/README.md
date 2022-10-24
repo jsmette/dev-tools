@@ -16,7 +16,6 @@ pnpm dlx husky-init && pnpm install # pnpm
 ```shell
 yarn create react-app react-husky --template typescript
 npx husky-init && yarn
-yarn add --dev --exact prettier
 ```
 
 The abvoe commands should generate the following code inside the `package.json` file:
@@ -26,6 +25,19 @@ The abvoe commands should generate the following code inside the `package.json` 
   "scripts": {
     "prepare": "husky install"
   }
+}
+```
+
+### Lint-staged, Prettier and Es-lint
+
+```shell
+yarn add --dev lint-staged
+yarn add --dev --exact prettier
+```
+
+```json
+"lint-staged": {
+  "*.{js,ts,tsx}": "eslint --fix"
 }
 ```
 
