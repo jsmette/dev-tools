@@ -92,8 +92,21 @@ Remove the following code block from `package.json` file.
 yarn add --dev --exact prettier
 ```
 
+Turns off all rules that are unnecessary or might conflict with Prettier.
+
 ```shell
 yarn add --dev eslint-config-prettier
+```
+
+ Add `prettier` to the `extends` array inside the .eslintrc.* file. Make sure to put it last, so it gets the chance to override other configs.
+ 
+ ```json
+{
+  "extends": [
+    "some-other-config-you-use",
+    "prettier"
+  ]
+}
 ```
 
 # Resources
