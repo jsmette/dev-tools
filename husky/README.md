@@ -16,6 +16,7 @@ pnpm dlx husky-init && pnpm install # pnpm
 ```shell
 yarn create react-app react-husky --template typescript
 npx husky-init && yarn
+yarn add --dev --exact prettier
 ```
 
 The abvoe commands should generate the following code inside the `package.json` file:
