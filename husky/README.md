@@ -184,6 +184,14 @@ Turns off all rules that are unnecessary or might conflict with prettier.
 yarn add --dev stylelint-config-prettier
 ```
 
+`.stylelintrc.json`
+
+```json
+{
+	"extends": ["stylelint-config-standard", "stylelint-config-prettier"]
+}
+```
+
 # Additional
 
 ```shell
