@@ -11,7 +11,9 @@ yarn dlx husky-init --yarn2 && yarn # Yarn 2+
 pnpm dlx husky-init && pnpm install # pnpm
 ```
 
-## React, Husky, Lint-staged, Es-lint, and Prettier
+[Source]([Husky](https://typicode.github.io/husky/#/))
+
+## React, Husky, Lint-staged, Es-lint, Prettier, and Eslint-config-prettier
 
 ```shell
 # create a react app called react-husky with typescript
@@ -92,6 +94,8 @@ Remove the following code block from `package.json` file.
 yarn add --dev --exact prettier
 ```
 
+[Source](https://prettier.io/docs/en/index.html)
+
 Turns off all rules that are unnecessary or might conflict with Prettier.
 
 ```shell
@@ -109,7 +113,8 @@ yarn add --dev eslint-config-prettier
 }
 ```
 
+[Source](https://github.com/prettier/eslint-config-prettier)
+
 # Resources
 
-1. [Husky](https://typicode.github.io/husky/#/)
-2. [Git-Hooks](https://git-scm.com/book/en/v2/Customizing-Git-Git-Hooks)
+1. 
