@@ -82,7 +82,7 @@ Remove the following code block from `package.json` file.
 },
 ```
 
-Remove the following code block inside the `package.json` file.
+Add the following code block inside the `package.json` file.
 
 ```json 
 "lint-staged": {
