@@ -11,7 +11,7 @@ yarn dlx husky-init --yarn2 && yarn # Yarn 2+
 pnpm dlx husky-init && pnpm install # pnpm
 ```
 
-## React
+## React, Lint-staged, Prettier and Es-lint
 
 ```shell
 # create a react app called react-husky with typescript
@@ -35,11 +35,8 @@ The abvoe commands should generate the following code inside the `package.json` 
 }
 ```
 
-### Lint-staged, Prettier and Es-lint
-
 ```shell
 yarn add --dev lint-staged
-yarn add --dev --exact prettier
 ```
 
 `.husky\pre-commit`
@@ -57,6 +54,10 @@ npx lint-staged
 "lint-staged": {
   "*.{js,ts,tsx}": "eslint --fix"
 }
+```
+
+```shell
+yarn add --dev --exact prettier
 ```
 
 # Resources
