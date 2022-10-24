@@ -13,7 +13,7 @@ pnpm dlx husky-init && pnpm install # pnpm
 
 [Source](https://typicode.github.io/husky/#/)
 
-## React, Husky, Lint-staged, Es-lint, Prettier, Eslint-config-prettier, Stylelint and Stylelint-config-prettier
+## React, Husky, Lint-staged, Es-lint, Prettier, Eslint-config-prettier, Stylelint and Stylelint-config-prettier-scss
 
 ```shell
 # create a react app called react-husky with typescript
@@ -175,26 +175,29 @@ yarn add --dev eslint-config-prettier
 ```
 
 ```shell
-yarn add --dev stylelint stylelint-config-standard
+yarn add --dev stylelint stylelint-config-standard-scss
 ```
 
-Turns off all rules that are unnecessary or might conflict with prettier.
+Turns off all CSS and SCSS rules that are unnecessary or might conflict with prettier.
 
 ```shell
-yarn add --dev stylelint-config-prettier
+yarn add --dev stylelint-config-prettier-scss
 ```
 
-Append stylelint-config-prettier to the extends array in your .stylelintrc.* file. Make sure to put it last, so it will override other configs.
+Append stylelint-config-prettier-scss to the extends array in your .stylelintrc.* file. Make sure to put it last, so it will override other configs.
 
 `.stylelintrc.json`
 
 ```json
 {
-	"extends": ["stylelint-config-standard", "stylelint-config-prettier"]
+	"extends": [
+		"stylelint-config-standard-scss",
+		"stylelint-config-prettier-scss"
+	]
 }
 ```
 
-[Source](https://www.npmjs.com/package/stylelint-config-prettier)
+[Source](https://www.npmjs.com/package/stylelint-config-prettier-scss)
 
 # Additional
 
