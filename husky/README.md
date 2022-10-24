@@ -138,8 +138,8 @@ yarn add --dev eslint-config-prettier
 		"sourceType": "module",
 		"project": ["./tsconfig.json"]
 	},
-	"plugins": ["react"],
-	"rules": {}
+	"plugins": ["react", "unused-imports"],
+	"rules": { "unused-imports/no-unused-imports": "error" }
 }
 ```
 
@@ -162,6 +162,14 @@ yarn add --dev eslint-config-prettier
 	"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write --ignore-unknown"
 },
 ```
+
+# Additional
+
+```shell
+yarn add --dev eslint-plugin-unused-imports@latest
+```
+
+[Source](https://github.com/sweepline/eslint-plugin-unused-imports)
 
 # Resources
 
