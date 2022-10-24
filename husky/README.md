@@ -47,7 +47,7 @@ yarn add --dev lint-staged
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
-npx lint-staged
+npx lint-staged && yarn test --watchAll=false
 ```
 
 ```shell
