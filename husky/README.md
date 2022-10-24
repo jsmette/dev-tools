@@ -82,7 +82,7 @@ Remove the following code block from `package.json` file.
 },
 ```
 
-Add the following code block inside the `package.json` file.
+Add the following code block inside the `package.json` file to automatically fix problems.
 
 ```json 
 "lint-staged": {
