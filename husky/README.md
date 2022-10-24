@@ -14,7 +14,9 @@ pnpm dlx husky-init && pnpm install # pnpm
 ## React
 
 ```shell
+# create a react app called react-husky with typescript
 yarn create react-app react-husky --template typescript
+# create a folder called .husky with pre-commit hook script
 npx husky-init && yarn
 ```
 
