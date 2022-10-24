@@ -11,7 +11,7 @@ yarn dlx husky-init --yarn2 && yarn # Yarn 2+
 pnpm dlx husky-init && pnpm install # pnpm
 ```
 
-[Source]([Husky](https://typicode.github.io/husky/#/))
+[Source](https://typicode.github.io/husky/#/)
 
 ## React, Husky, Lint-staged, Es-lint, Prettier, and Eslint-config-prettier
 
