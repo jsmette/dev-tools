@@ -13,7 +13,7 @@ pnpm dlx husky-init && pnpm install # pnpm
 
 [Source](https://typicode.github.io/husky/#/)
 
-## React, Husky, Lint-staged, Es-lint, Prettier, Eslint-config-prettier, Stylelint
+## React, Husky, Lint-staged, Es-lint, Prettier, Eslint-config-prettier, Stylelint and Stylelint-config-prettier
 
 ```shell
 # create a react app called react-husky with typescript
