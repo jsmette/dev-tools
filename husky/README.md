@@ -50,14 +50,6 @@ yarn add --dev lint-staged
 npx lint-staged
 ```
 
-`package.json`
-
-```json 
-"lint-staged": {
-  "*.{js,ts,tsx}": "eslint --fix"
-}
-```
-
 ```shell
 yarn add --dev eslint
 npx eslint --init
@@ -89,6 +81,16 @@ Remove the following code block from `package.json` file.
   ]
 },
 ```
+
+Remove the following code block inside the `package.json` file.
+
+```json 
+"lint-staged": {
+  "*.{js,ts,tsx}": "eslint --fix"
+}
+```
+
+[Source](https://eslint.org/docs/latest/user-guide/getting-started)
 
 ```shell
 yarn add --dev --exact prettier
