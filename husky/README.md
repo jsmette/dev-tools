@@ -117,6 +117,32 @@ yarn add --dev eslint-config-prettier
 
 [Source](https://github.com/prettier/eslint-config-prettier)
 
+
+`.eslintrc.json`
+
+```json
+{
+	"env": {
+		"browser": true,
+		"es2021": true
+	},
+	"extends": ["plugin:react/recommended", "standard-with-typescript", "prettier"],
+	"settings": {
+		"react": {
+			"version": "detect"
+		}
+	},
+	"overrides": [],
+	"parserOptions": {
+		"ecmaVersion": "latest",
+		"sourceType": "module",
+		"project": ["./tsconfig.json"]
+	},
+	"plugins": ["react"],
+	"rules": {}
+}
+```
+
 # Resources
 
 1. 
