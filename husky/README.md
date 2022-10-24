@@ -13,7 +13,7 @@ pnpm dlx husky-init && pnpm install # pnpm
 
 [Source](https://typicode.github.io/husky/#/)
 
-## React, Husky, Lint-staged, Es-lint, Prettier, and Eslint-config-prettier
+## React, Husky, Lint-staged, Es-lint, Prettier, Eslint-config-prettier, Stylelint
 
 ```shell
 # create a react app called react-husky with typescript
@@ -96,6 +96,17 @@ Add the following code block inside the `package.json` file to automatically fix
 yarn add --dev --exact prettier
 ```
 
+`.prettierrc.json`
+
+```json
+{
+	"tabWidth": 4,
+	"useTabs": true,
+	"bracketSpacing": true,
+	"semi": true
+}
+```
+
 [Source](https://prettier.io/docs/en/index.html)
 
 Turns off all rules that are unnecessary or might conflict with Prettier.
@@ -161,6 +172,16 @@ yarn add --dev eslint-config-prettier
 	"./src/**/*.{js,jsx,ts,tsx}": "eslint --fix",
 	"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write --ignore-unknown"
 },
+```
+
+```shell
+yarn add --dev stylelint stylelint-config-standard
+```
+
+Turns off all rules that are unnecessary or might conflict with prettier.
+
+```shell
+yarn add --dev stylelint-config-prettier
 ```
 
 # Additional
