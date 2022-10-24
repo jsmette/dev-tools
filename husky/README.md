@@ -143,6 +143,26 @@ yarn add --dev eslint-config-prettier
 }
 ```
 
+`package.json`
+
+```json
+"scripts": {
+	"start": "react-scripts start",
+	"build": "react-scripts build",
+	"test": "react-scripts test",
+	"eject": "react-scripts eject",
+	"prepare": "husky install",
+	"lint": "eslint ./src/**/*.{js,jsx,ts,tsx,json}",
+	"lint:fix": "eslint --fix ./src/**/*.{js,jsx,ts,tsx,json}",
+	"prettier:check": "prettier --config ./.prettierrc --check ./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}",
+	"prettier:fix": "prettier --config ./.prettierrc --write ./src/**/*.{js,jsx,ts,tsx,json,css,scss,md} "
+},
+"lint-staged": {
+	"./src/**/*.{js,jsx,ts,tsx}": "eslint --fix",
+	"./src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": "prettier --write --ignore-unknown"
+},
+```
+
 # Resources
 
 1. 
