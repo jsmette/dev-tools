@@ -9,3 +9,4 @@
 7. [Meshgradient](https://meshgradient.com/)
 8. [Happyhues](https://www.happyhues.co/)
 9. [Every timezone](https://everytimezone.com/)
+10. [Programming zines by Julia Evans](https://wizardzines.com/comics/)
